@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Registro de Numeros</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Registro de Numeros</h1>
+        <div class="form-group">
+            <label for="nuevoNumero">Nuevo Número:</label>
+            <input type="text" class="form-control" id="nuevoNumero" placeholder="Ingrese un número">
+        </div>
+        <button id="agregar" class="btn btn-primary">Añadir Número</button>
+        <button id="resetear" class="btn btn-danger">Resetear</button>
+        <h2 class="mt-4">Lista de Números</h2>
+        <ul id="listaNumeros" class="list-group"></ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
